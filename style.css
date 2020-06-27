@@ -1,0 +1,129 @@
+body {
+    background-color: #f8f8f8;
+    font-family: OS;
+}
+
+table {
+    width: 500px;
+    height: 200px
+}
+.catalog P:first-letter {
+    font-size: 35px;
+    color: brown;
+    font-family: A
+}
+
+.fr {
+    height: 40px;
+    text-align: center;
+    font-style: italic
+}
+
+.header:before {
+    content: url(images/LOGO.png)
+}
+
+
+.main_name {}
+
+.menu {
+    list-style-type: none;
+}
+
+.menu li {
+    font-family: A;
+    font-size: 27px;
+    display: inline;
+    background-color: #d4e3e6;
+    margin: 6px;
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+.menu li:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px
+}
+
+.menu li:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px
+}
+
+.menu li A {
+    color: #2c1f0b;
+    text-decoration: none;
+}
+
+.menu li A:hover {
+    color: #91267c;
+    text-decoration: underline;
+    background-color: #f2c8f8
+}
+
+.hara {
+    list-style-image: url(images/marker.png);
+    font-family: A;
+    font-size: 18px
+}
+
+.catalog {
+    background-color: #eaeaea;
+    color: #000000;
+    font-weight: 400
+}
+
+.hara li {
+    font-size: 17px;
+}
+
+.prot {
+    color: #484343;
+    font-size: 16px;
+    text-align: left;
+    line-height: 24px
+}
+
+.krot {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px
+}
+
+input {
+    
+    font-size: 15px;
+
+    left: 10px;
+    top: 15px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+.emale:focus[type="text"]:focus {
+    color: #55ff22;
+    border: 3px solid #000000;
+    background: #dd8888
+}
+
+.ttt:first-letter {color: aqua;
+    text-transform: uppercase;
+}
+
+
+
+@font-face {
+    font-family: "A";
+    src: url("fonts/a.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "OS";
+    src: url("fonts/OpenSans.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
